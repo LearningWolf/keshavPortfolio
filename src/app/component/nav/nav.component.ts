@@ -7,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavComponent implements OnInit {
 
+
+  navBar = ["home","about me","portfolio","contact"]
+  resume = "My Resume"
+  resumeUrl = "../../../assets/Resume_Keshav.docx"
+  menuBtn = "../../../assets/images/menu-icon.svg"
   constructor() { }
 
   ngOnInit(): void {
