@@ -61,7 +61,8 @@ export class HomeComponent implements OnInit {
       jobRes3: "Redesign the Current project Developed in any coding language",
     },
   ]
-
+  profileImg = "../../../assets/images/profile1.png"
+  aboutImg = "../../../assets/images/abot.jpeg"
   // ques1 = "If I lost my memory whats the first thing you'd tell me about us"
   // ques2 = "why do you think I fell in love with you"
   // ques3 = "What does living a good life mean to you "
