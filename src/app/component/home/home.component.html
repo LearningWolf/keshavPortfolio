@@ -1,0 +1,84 @@
+<!-- section01 starts here  -->
+<section class="section01 container">
+    <div class="row flex-wrap-reverse justify-content-between">
+        <div class="col-lg-6 col-12 pt-5">
+            <h1 class="bannerHeading">
+                I'm Ui/Ux Developer <br> Keshav Kumar
+            </h1>
+            <section>
+                <article class="bannerCntTtl">
+                    Technical Skills
+                </article>
+                <ul class="d-flex flex-wrap list-unstyled">
+                    <li class="col-6 my-2" *ngFor="let tech of technicalSkills">
+                        {{tech}}
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <article class="bannerCntTtl">
+                    Design Skills
+                </article>
+                <ul class="d-flex flex-wrap list-unstyled">
+                    <li class="col-6 my-2" *ngFor="let design of designSkills">
+                        {{design}}
+                    </li>
+                </ul>
+            </section>
+        </div>
+        <div class="col-lg-5 col-12 d-flex justify-content-center bannerImg">
+            <img src="../../../assets/images/profile1.png" class="img-fluid" alt="">
+            <!-- <div class="col-lg-6">
+            </div> -->
+        </div>
+    </div>
+</section>
+<!-- section01 ends here  -->
+<!-- section02 starts here  -->
+<section class="section02 bg-white w-100">
+    <div class="container">
+        <div class="row">
+            <h3 class="text-center bluecolor">About Me</h3>
+            <div class="d-flex justify-content-center">
+                <div class="hrTitleCenter"></div>
+            </div>
+        </div>
+        <div class="row my-3 py-5">
+            <div class="col-lg-7 col-12 pt-5 pe-lg-5">
+                <p class="bluecolor">
+                    I am a Ui/Ux developer and have over 1.5 years of regular experience and 1.5 years of freelance experience.
+                    <br>
+                    I've developed 500-plus websites. As a Ui/Ux developer, I have experience with all kinds of technology like WordPress, laravel, php,react and Angular.
+                    <br>
+                    My specialism is in creating websites that are pixel perfect or viewing responsive websites that are perfect.
+                </p>
+            </div>
+            <div class="col-lg-5 col-12">
+                <img src="../../../assets/images/abot.jpeg" alt="" class="rounded-3 img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- section02 ends here  -->
+<!-- section03 starts here  -->
+<section class="section03 w-100">
+    <div class="container pb-5">
+        <div class="row">
+            <h3 class="text-center bluecolor">Work Experience</h3>
+            <div class="d-flex justify-content-center">
+                <div class="hrTitleCenter"></div>
+            </div>
+        </div>
+        <div class="row py-5">
+            <div class="col-lg-4 col-md-6 col-12 mb-4 d-flex justify-content-center" *ngFor="let workexp of experience">
+                <div class="w-100 py-3 px-4 bg-white">
+                    <h5 class="companyName">{{workexp.name}} ({{workexp.post}})</h5>
+                    <div class="postName">{{workexp.time}}</div>
+                    <div class="workedTimline">{{workexp.jobResTtl}}</div>
+                    <div class="jobResponsibility">{{workexp.name}}</div>
+                </div> 
+            </div>
+        </div>
+    </div>
+</section>
+<!-- section03 ends here  -->
