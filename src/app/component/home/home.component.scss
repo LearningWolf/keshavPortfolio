@@ -28,12 +28,29 @@ section h3{
     font-size: 2.25rem;
 }
 
+// section01 style
+.section01Heading{
+    color: #002d5b;
+    padding-top: 15%;
+    line-height: 1.5;
+}
+.hirebtn {
+    width: 100%;
+    display: flex;
+    @media (max-width: 800px) {
+      justify-content: center;
+    }
+  }
+// section01 style
 // section02 style
 .section02 p{
     font-size: 1.25rem;
     line-height: 1.6;
 }
-
+.experienceCard{
+    border-radius: 8px;
+    background-color: #002d5b;
+}
 // section02 style
 // section03 style
 
