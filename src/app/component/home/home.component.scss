@@ -33,6 +33,10 @@ section h3{
     color: #002d5b;
     padding-top: 15%;
     line-height: 1.5;
+    @media (max-width: 800px) {
+        padding-top: 5%;
+        text-align: center;
+    }
 }
 .hirebtn {
     width: 100%;
@@ -40,7 +44,15 @@ section h3{
     @media (max-width: 800px) {
       justify-content: center;
     }
-  }
+}
+.portFolioImg {
+    max-height: 600px;
+    overflow: hidden;
+    @media (max-width: 800px) {
+        display: flex;
+        justify-content: center;
+    }
+}
 // section01 style
 // section02 style
 .section02 p{
@@ -50,6 +62,14 @@ section h3{
 .experienceCard{
     border-radius: 8px;
     background-color: #002d5b;
+}
+.aboutImg{
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.6);
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.6);
+    @media (max-width: 800px) {
+        margin-left: auto;
+    }
 }
 // section02 style
 // section03 style

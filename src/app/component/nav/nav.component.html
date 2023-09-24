@@ -1,4 +1,4 @@
-<header class="container mb-lg-5">
+<header class="container my-lg-2">
     <nav class="navbar navbar-expand-lg pe-0">
         <div class="row w-100 justify-content-between">
             <a class="navbar-brand col-xl-2 col-lg-3 col-6" href="#">
@@ -18,7 +18,7 @@
             <div class="collapse navbar-collapse col-lg-6 col-12 pe-5" id="navbarNav">
                 <ul class="navbar-nav w-100 justify-content-end">
                     <li class="nav-item ps-3 ps-lg-0 col-lg-2" *ngFor="let navName of navBar">
-                        <a class="nav-link text-dark text-lg-center text-capitalize" aria-current="page" href="#">{{navName}}</a>
+                        <a class="nav-link text-dark text-lg-center text-capitalize" aria-current="page" href={{navName.link}}>{{navName.name}}</a>
                     </li>
                 </ul>
             </div>
